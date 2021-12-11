@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="py-5">
+            <form action="">
+                <p>Bài 1</p>
+                <p>Nhập 3 số vào đây</p>
+                <input type="number" id="num1" required>
+                <input type="number" id="num2" required>
+                <input type="number" id="num3" required>
+                <button  type="button" id="btnNum" class="btn btn-success" onclick="sapXep()" >Nhấn để sắp xếp</button>
+                <p id="txtKq1"></p>
+            </form>
+        </div>
+        <div class="py-5">
+            <form action="">
+                <p>Bài 2</p>
+                <select class="form-control form-input my-3" id="input">
+                    <option value="Chọn Thành Viên">Chọn Thành Viên</option>
+                    <option value="1">Bố</option>
+                    <option value="2">Mẹ</option>
+                    <option value="3">Anh Trai</option>
+                    <option value="4">Em Gái</option>
+                </select>
+                <button  type="button" id="btnNum" class="btn btn-success" onclick="chaoHoi()" >Gửi Lời Chào</button>
+                <p id="txtKq2"></p>
+            </form>
+        </div>
+        <div class="py-5">
+            <form action="">
+                <p>Bài 3</p>
+                <p>Nhập 3 số vào đây</p>
+                <input type="number" id="num4" required>
+                <input type="number" id="num5" required>
+                <input type="number" id="num6" required>
+                <button  type="button" id="btnNum" class="btn btn-success" onclick="timSo()" >Nhấn để tìm</button>
+                <p id="txtKq3"></p>
+            </form>
+        </div>
+        <div class="py-5">
+            <form action="">
+                <p>Bài 4</p>
+                <p>Nhập 3 cạnh của tam giác vào đây</p>
+                <input type="number" id="num7" required>
+                <input type="number" id="num8" required>
+                <input type="number" id="num9" required>
+                <button  type="button" id="btnNum" class="btn btn-success" onclick="tamGiac()" >Nhấn để tìm</button>
+                <p id="txtKq4"></p>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!-- Bs4 -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
